@@ -1,0 +1,72 @@
+div#taquin {
+	width : 400px;
+	height: 400px;
+	position: relative;
+	display: grid;
+	margin: 1em auto;
+	grid-gap: 0.3em;
+	background-color: #666;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+
+div#taquin button{
+	font-size: 2rem;
+	padding: 0;
+}
+
+div#controls {
+	width : 400px;
+	margin: 1em auto;
+	text-align: center;
+}
+
+input#nb{
+	width: 3em;
+}
+
+/* La case vide */
+button.empty{
+	color:transparent;
+	background-color: transparent;
+	border: none;
+}
+
+
+
+/* Pour mettre les images de fond */
+/*div#taquin{
+	background: white;
+	border: 0.2em ridge gray;
+	padding : 0.5em;
+}
+
+div#taquin button{
+	background-size: cover;
+	color:transparent;
+	border: none;
+}
+div#taquin button:nth-child(1){
+	background-image: url('../images/taquin1.jpg');
+}
+div#taquin button:nth-child(2){
+	background-image: url('../images/taquin2.jpg');
+}
+div#taquin button:nth-child(3){
+	background-image: url('../images/taquin3.jpg');
+}
+div#taquin button:nth-child(4){
+	background-image: url('../images/taquin4.jpg');
+}
+div#taquin button:nth-child(5){
+	background-image: url('../images/taquin5.jpg');
+}
+div#taquin button:nth-child(6){
+	background-image: url('../images/taquin6.jpg');
+}
+div#taquin button:nth-child(7){
+	background-image: url('../images/taquin7.jpg');
+}
+div#taquin button:nth-child(8){
+	background-image: url('../images/taquin8.jpg');
+}*/
